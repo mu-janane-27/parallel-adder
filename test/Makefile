@@ -33,7 +33,7 @@ VERILOG_SOURCES += $(PWD)/tb.v
 TOPLEVEL = tb
 
 # If you don’t use cocotb python test, comment out:
-# MODULE = test
+MODULE = test_adder8
 
 # include cocotb's make rules to take care of the simulator setup
 include $(shell cocotb-config --makefiles)/Makefile.sim
