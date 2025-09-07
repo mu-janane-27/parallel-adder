@@ -50,9 +50,5 @@ module tb ();
 
     $finish;
   end
-
-  // Clock generation
-  always #5 clk = ~clk;
-
 endmodule
 
