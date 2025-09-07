@@ -19,8 +19,7 @@ The final carry-out (Cout) is generated internally but not connected to an exter
 
 ## How to test
 
-You can test the design in simulation or on hardware:
-1) Simulation:
+You can test the design in simulation:
 Run the provided testbench (tb.v).
 The testbench applies different input combinations of A and B.
 Example:
